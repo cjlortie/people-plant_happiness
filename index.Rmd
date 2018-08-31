@@ -1,5 +1,5 @@
 ---
-title: "index"
+title: ""
 output: html_document
 ---
 
@@ -10,6 +10,8 @@ output: html_document
 ###Data
 ```{r, data, warning=FALSE, message=FALSE}
 library(tidyverse)
-data <- 
+data <- read.delim("data/data.dat")
+data <- as_tibble(data)
+data
 
 ```
