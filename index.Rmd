@@ -1,0 +1,15 @@
+---
+title: "index"
+output: html_document
+---
+
+###The influence of plant species richness on stress recovery of humans  
+
+[Publication](https://www.web-ecol.net/18/121/2018/)  
+
+###Data
+```{r, data, warning=FALSE, message=FALSE}
+library(tidyverse)
+data <- 
+
+```
